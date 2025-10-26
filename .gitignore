@@ -1,0 +1,25 @@
+# Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# ARM deployments
+*.parameters.local.json
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfvars
+
+# Python/venv (if scripts are added)
+.venv/
+__pycache__/
+
+# Secrets (never commit)
+.env
+.env.*
