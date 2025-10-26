@@ -1,0 +1,8 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {"workspaceName": {"type": "string", "defaultValue": "central-logs"}, "location": {"type": "string", "defaultValue": "westeurope"}},
+  "resources": [
+    {"type": "Microsoft.OperationalInsights/workspaces","apiVersion": "2020-08-01","name": "[parameters('workspaceName')]","location": "[parameters('location')]","properties": {"sku": {"name": "PerGB2018"}}}
+  ]
+}

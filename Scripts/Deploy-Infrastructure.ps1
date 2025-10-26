@@ -1,0 +1,3 @@
+Param([string]$Environment='Dev',[string]$Region='westeurope')
+Write-Host "Deploying core monitoring + network templates to $Environment in $Region" -ForegroundColor Cyan
+# Example orchestrator: az group create; az deployment group create ...
