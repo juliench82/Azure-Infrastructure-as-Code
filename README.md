@@ -44,7 +44,7 @@ terraform init && terraform apply -auto-approve
 - terraform/main.tf
 
 ## 👤 Author
-**Julien Chevallier** — Senior IT Manager & Cloud Architect
+**Julien Chevallier** — Senior IT Support Engineer
 
 ---
 
